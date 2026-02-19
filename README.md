@@ -1,11 +1,11 @@
-##Student Management CRUD Application built using Spring Boot, MySQL, JPA, and REST APIs.  Tested using Postman.
+## Student Management CRUD Application built using Spring Boot, MySQL, JPA, and REST APIs.  Tested using Postman.
 
 
 This is a simple Student Management System built using Spring Boot, MySQL, and Postman.  
 It performs basic CRUD operations(Create, Read, Update, Delete).
 
 
-##Technologies Used
+## Technologies Used
 - Java  
 - Spring Boot  
 - Spring Data JPA  
@@ -14,18 +14,18 @@ It performs basic CRUD operations(Create, Read, Update, Delete).
 - Postman  
 
 
-##Project Architecture (Simple)
+## Project Architecture (Simple)
 
 Controller – Handles HTTP requests
 Service – Contains business logic
 Repository – Communicates with database
 Entity – Represents database table
 
-##Application flow
+## Application flow
 
 Postman → Controller → Service → Repository → MySQL
 
-##API Endpoints
+## API Endpoints
 
 POST /students – Add student  
 GET /students – Get all students  
